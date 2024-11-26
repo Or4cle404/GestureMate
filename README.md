@@ -9,4 +9,4 @@ Libraries:
 - video feeds and processing gestures.
 - Pycaw: to control audio volume via gesture input.
 - Python (Backend processing)
-- HTML/CSS/JavaScript (Frontend interface
+- HTML/CSS/JavaScript (Frontend interface)
