@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hand Gesture Control</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    
+    <video autoplay muted loop id="backgroundVideo">
+        <source src="{{ url_for('static', filename='videos/video.mp4') }}" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <div class="container">
+        <!-- Top Text -->
+        <div class="top-text">
+            Controlling Brightness and Volume using Hand Gesture
+        </div>
+
+        <div class="video-container">
+            <!-- Video feed -->
+            <img id="videoFeed" src="{{ url_for('video_feed') }}" alt="Video Feed" class="video-feed">
+            <video id="video-feed" width="640" height="550" autoplay></video>
+        </div>
+
+        <!-- Instructions Text Box -->
+        <div class="instructions-box">
+            <h3>Instructions:</h3>
+            <ul>
+                <li>Use hand gestures to control brightness and volume.</li>
+                <li>Left hand - to control brightness.</li>
+                <li>Right hand - to control volume.</li>
+                <li>To control brightness increase or decrease distance between your thumb and index finger of left hand.</li>
+                <li>To control volume increase or decrease distance between your thumb and index finger of right hand..</li>
+            </ul>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
