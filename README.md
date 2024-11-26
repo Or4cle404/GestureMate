@@ -1,3 +1,4 @@
+GestureMate is a project that leverages the powerof computer vision. It is a touchless interactive system that allows users to control screen brightness and volume using hand gestures captured by a webcam.
 # GestureMate: Hand Gesture based Brightness and Volume Control
 
 Programming Language: **Python**
