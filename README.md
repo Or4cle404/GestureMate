@@ -13,6 +13,7 @@ Libraries:
 - Python (Backend processing)
 - HTML/CSS/JavaScript (Frontend interface)
 
-** Note: Left hand is for controlling brightness of the system and Right hand is for controlling the volume of the system.**
+**Note: Left hand is for controlling brightness of the system and Right hand is for controlling the volume of the system.**
 
+# Working of the project
 ![Screenshot 2024-11-25 002926](https://github.com/user-attachments/assets/c3f7fcd7-96a5-4c63-b92d-0c1dc9d5f20c)
