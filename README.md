@@ -1,6 +1,6 @@
 # GestureMate: Hand Gesture based Brightness and Volume Control
 
-Programming Language: ## Python
+Programming Language: **Python**
 Libraries: 
 - OpenCV – handles video captures and frame processing
 - MediaPipe – Utilized for accurate hand landmark detection, tracking and recognition.
