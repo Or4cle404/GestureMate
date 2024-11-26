@@ -20,7 +20,7 @@ Libraries:
 
 # 1.	Hand Detection and Tracking:
 - Video Capture: The webcam captures video frames in real-time.
-- Image Preprocessing: Each frame is preprocessed to enhance image quality and facilitate hand detection.
+- Image Preprocessing: Each frame is preprocessed to enhance image quality and facilitate hand detection. Since, MediaPipe only works with RGB, it will also conert the frame in RGB if not in this form.
 -	Hand Landmark Detection: MediaPipe's hand landmark detection model is used to identify key points on the hand, such as fingertips, wrist, and palm.
 -	Hand Tracking: The detected hand landmarks are tracked across consecutive frames to ensure smooth and accurate gesture recognition.
 # 2.	Gesture Recognition:
